@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>summary</title>
+        <meta name="viewport" content="width=80%,initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+        </style>
+        <script src=""></script>
+
+    </head>
+    <link rel="stylesheet" href="/static/style.css">
+<body>
+    <div class ="frontpage-2" >
+        <div class="container">
+            <div class="header">
+                <h1 class="display-4" style="display:flex; justify-content:space-around">Text Summarization</h1>
+            </div>
+        
+            <div class="container" style="display:flex; justify-content:space-around">
+                
+                <p class="Original_title col-sm-4">Original text</p>
+                <p class="Summary_title col-sm-4">Summary text</p>
+            </div>
+               
+
+            <div class="container" style="display:flex; justify-content:space-around">
+                
+                <p class="Original_txt col-sm-4">{{original_text}}</p>
+                <p class="Summary_txt col-sm-4">{{summary}}</p>
+            
+            </div>  
+
+            <div class="container" style="display:flex; justify-content:space-around">
+                
+                <p class="Original_txt_len col-sm-4">Original text length: {{len_originaltext}}</p>
+                <p class="Summary_txt_len col-sm-4">Summary text length: {{len_summary}}</p>
+            
+            </div>  
+        </div>
+    </div>
+</body>
+</html>     
